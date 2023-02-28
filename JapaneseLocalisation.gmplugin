@@ -1,0 +1,24 @@
+{
+  "name": "JapaneseLocalisation",
+  "bundle_version": "1.0",
+  "bundle_description": "Japanese IDE localisations",
+  "required": false,
+  "github_url": "https://api.github.com/repos/YoYoGames/IDE_Localisation_Japanese",
+  "plugins": [
+    {
+      "plugin_name": "JapaneseLocalisation",
+      "localised_name": "japanese_localisation",
+      "plugin_version": "1.0",
+      "type": "Language",
+      "plugin_data": {
+        "languages": [
+            { "Japanese": "japanese.csv" },
+            {"Japanese": "japanese_dnd.csv" }
+        ]
+      },
+      "description": "Japanese IDE localisations",
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ]
+}
