@@ -40,7 +40,6 @@ $mac_LaptopLZoomKey,Left Command,左 Command,,Mac laptop mode zoom key
 $linux_LaptopLZoomKey,Left Control,左 Ctrl,,Linux laptop mode zoom key
 Account_Menu_Login,Login,ログイン,,"Account menu ""Login"""
 Account_Menu_Logout,Logout,ログアウト,,"Acount menu ""Logout"""
-Account_Menu_ManageAccount,Manage Account,アカウントの管理,,"Account menu ""Account"""
 AnimationManager_InvalidTransition,The transition specified '{0}' is not valid,'{0}' で指定されたトランジションは無効です,,The transition specified in the animation json is not a valid value
 BackgroundLayer_HSpeed,Horizontal Speed,水平速度,,Numeric textbox label for horizontal scroll speed
 BackgroundLayer_HTile,Horizontal Tile,水平タイル,,Checkbox label for horizontal tiling
@@ -531,7 +530,7 @@ Inspector_Category_FontOptions,Advanced Options,詳細オプション,,Inspector
 Inspector_Category_CanvasFrame,Canvas Frame,キャンバスフレーム,,Inspector category
 Inspector_Category_Parent,Parent,親,,Inspector category
 Inspector_OpenEditor,Open Editor,エディターを開く,,open editor
-Inspector_ObjNoEvents,"This Object currently has no Events.\nAdd Events here or via the editor","このオブジェクトには現在イベントがありません。\nこちらもしくはエディタでイベントを追加します",,no object events inspector label
+Inspector_ObjNoEvents,This Object currently has no Events.\nAdd Events here or via the editor,このオブジェクトには現在イベントがありません。\nこちらもしくはエディタでイベントを追加します,,no object events inspector label
 Inspector_OpenEditors,Open Editors,エディターを開く,,open multiple editors
 Inspector_Category_Properties,Properties,プロパティ,,inspector category
 Inspector_Category_Editors,Editors,エディター,,inspector category
@@ -949,24 +948,24 @@ ImageEditor_Menu_RotateImageACW,Rotate All Frames (anti-clockwise 90),すべて�
 ImageEditor_Undo,Undo,元に戻す,,Image editor menu option -Undo
 ImageEditor_VisibleLayers,Visible Layers,可視レイヤー,,effect visible layers option
 ImageEditor_WidthLabel,Width:,幅:,,image editor resize width label
-ImageEditor_ArcTool_Info,"Click to add a point, drag to move ({0} - move control point; {1} - snap; Enter - commit)","クリックしてポイントを追加し、ドラッグして（{0} - コントロールポイントの移動、{1} - スナップ、Enter - コミット）移動します",,image editor tool info
+ImageEditor_ArcTool_Info,"Click to add a point, drag to move ({0} - move control point; {1} - snap; Enter - commit)",クリックしてポイントを追加し、ドラッグして（{0} - コントロールポイントの移動、{1} - スナップ、Enter - コミット）移動します,,image editor tool info
 ImageEditor_ColourPicker_Info,Left/right click to pick a colour,左/右クリックして、色を選びます,,image editor tool info
 ImageEditor_EllipseTool_Info,Click and drag to draw an ellipse ({0} for a circle),クリック・アンド・ドラッグし、楕円({0}：円)を描きます,,image editor tool info
-ImageEditor_PaintSelectTool_Info,"Paint selection ({0} to add, {1}/right click to subtract)","ペイント選択範囲({0}：追加、{1}/右クリックすると減少)",,image editor tool info
+ImageEditor_PaintSelectTool_Info,"Paint selection ({0} to add, {1}/right click to subtract)",ペイント選択範囲({0}：追加、{1}/右クリックすると減少),,image editor tool info
 ImageEditor_EraseTool_Info,Click to erase,クリックして消去します,,image editor tool info
 ImageEditor_FillTool_Info,Click to fill ({0} to tile with brush),クリックしてフィル({0}：ブラシでタイル貼り),,image editor tool info
 ImageEditor_ColourReplaceTool_Info,Click to swap colours ({0} to replace alpha also),クリックして色を交換({0}：アルファ版も置き換える),,image editor tool info
 ImageEditor_ColourRemoveTool_Info,Click to remove a colour,クリックして色を削除します,,image editor tool info
 ImageEditor_LineTool_Info,Click and drag to draw a line ({0} for a straight line),クリック・アンド・ドラッグし、線を引く({0}：直線),,image editor tool info
-ImageEditor_MagicWand_Info,"Click to replace selection ({0} to add to selection, {1} to subtract from selection)","クリックして選択範囲を置き換える({0}：選択範囲に追加、{1}は選択範囲から除く)",,image editor tool info
-ImageEditor_Paintbrush_Info,"Click to paint ({0} for a straight line, {1} to pick a colour)","クリックしてペイント({0}：直線、{1}：色選択)",,image editor tool info
+ImageEditor_MagicWand_Info,"Click to replace selection ({0} to add to selection, {1} to subtract from selection)",クリックして選択範囲を置き換える({0}：選択範囲に追加、{1}は選択範囲から除く),,image editor tool info
+ImageEditor_Paintbrush_Info,"Click to paint ({0} for a straight line, {1} to pick a colour)",クリックしてペイント({0}：直線、{1}：色選択),,image editor tool info
 ImageEditor_PanTool_Info,Click and drag to pan,クリック&ドラッグしてパンします,,image editor tool info
 ImageEditor_PolyTool_Info,Click to add points (Enter to commit),クリックしてポイントを追加します (コミットするには Enter),,image editor tool info
 ImageEditor_RectangleTool_Info,Click and drag to draw a rectangle ({0} for a square),クリック・アンド・ドラッグし、矩形を描く({0}：正方形),,image editor tool info
 ImageEditor_RotateTool_Info,Click button to rotate clockwise (Shift for anti-clockwise),ボタンをクリックして時計回りに回転させます (反時計回りの場合は Shift),,image editor tool info
 ImageEditor_FreeRotateTool_Info,Click and drag to rotate current brush,クリック&ドラッグして現在のブラシを回転させます,,image editor free rotate tool info
 ImageEditor_SelectEllipseTool_Info,"Click and drag to replace selection (${ctrl} to add to selection, Alt to subtract from selection)",クリック&ドラッグして選択範囲を置き換えます (選択範囲に追加するには ${ctrl}、選択範囲から削除するには Alt),,image editor tool info
-ImageEditor_SelectRectTool_Info,"Click and drag to replace selection ({0} to add to selection, {1} to subtract from selection)","クリック・アンド・ドラッグし、選択範囲を置き換える({0}：選択範囲に追加、{1}は選択範囲から除く)",,image editor tool info
+ImageEditor_SelectRectTool_Info,"Click and drag to replace selection ({0} to add to selection, {1} to subtract from selection)",クリック・アンド・ドラッグし、選択範囲を置き換える({0}：選択範囲に追加、{1}は選択範囲から除く),,image editor tool info
 ImageEditor_TextTool_Info,Click to insert text,クリックしてテキストを挿入します,,image editor tool info
 ImageEditor_Warning_GroupSelected,Cannot paint on layer groups,レイヤーグループでペイントすることはできません,,image editor: group paint warning
 ImageEditor_Warning_GroupSelected_Dialog,Cannot paint on layer groups; select a non-group layer,レイヤーグループでペイントすることはできません。レイヤーグループ以外を選択してください,,image editor: group paint warning dialog
@@ -1376,7 +1375,7 @@ PathEditor_SplineContextMenu_Reverse,Reverse,反転,,Path spline editor context 
 PathEditor_SplineEditor_AddTip,Left Mouse Button: Add & Drag Anchor,左マウスボタン:アンカーを追加&ドラッグ,,Path spline editor help tip
 PathEditor_SplineEditor_Area,"Area: {0},{1} {2},{3}","エリア: { 0},{1} {2},{3}",,Path spline editor area location
 PathEditor_SplineEditor_Cursor,"Cursor: {0},{1}","カーソル: {0},{1}",,Path spline editor cursor location
-PathEditor_SplineEditor_EditTip,"{0}+LMB: Translate, {1}+LMB: Rotate, {2}+LMB: Scale","{0}+LMB:翻訳、{1}+LMB:回転、{2}+LMB:拡大・縮小",,Path spline editor help tip
+PathEditor_SplineEditor_EditTip,"{0}+LMB: Translate, {1}+LMB: Rotate, {2}+LMB: Scale",{0}+LMB:翻訳、{1}+LMB:回転、{2}+LMB:拡大・縮小,,Path spline editor help tip
 PathEditor_StraightLines,Straight Lines,直線,,Path editor straight lines connection kind
 PathEditor_ToolTip_ShiftPath,Shift Path,パスを移動,,Path editor tool tip
 PathEditor_ToolTip_SnapGrid,Snap Path To Grid,パスをグリッドにスナップ,,Path editor tool tip
@@ -1405,7 +1404,7 @@ ResourceNode_AddExistingFromLibrary,Add Existing From My Library,マイライブ
 ResourceNode_AddGroup,Add Group,グループを追加,,Add a group
 ResourceNode_AddFromDefault,Add From Default View,デフォルトビューから追加,,submenu heading to allow users to select a resource from the default view to add to their user view.
 ResourceNode_RemoveFromView,Remove From Current View,現在のビューから追加,,Resource Tree - remove a resource from the current view
-ResourceNode_RemoveFromView_Confirm,"You are about to remove """"{0}"""" from view """"{1}"""". Continue?","ビュー""""{1}"""" から """"{0}"""" を削除しようとしています。続行しますか？",,Resource Tree - confirmation of removal from the current view
+ResourceNode_RemoveFromView_Confirm,"You are about to remove ""{0}"" from view ""{1}"". Continue?","ビュー""{1}"" から ""{0}"" を削除しようとしています。続行しますか？",,Resource Tree - confirmation of removal from the current view
 ResourceNode_Create,Create,作成,,Resource Tree node menu - create resource
 ResourceNode_GMLVisualToScript,Convert to GML Code,GML Code に変換,,Resource Tree node menu - GML Visual To GML
 ResourceNode_ScriptToGMLVisual,Convert to GML Visual,GML Visual に変換,,Resource Tree node menu - script to GML Visual
@@ -4673,7 +4672,7 @@ NewSpriteWidth,Default sprite width,デフォルトのスプライトの幅,,pre
 NewSpriteHeight,Default sprite height,デフォルトのスプライトの高さ,,pref label
 TileSetEditorMenu_Delete,Delete,削除,,the delete animation or auto tile set context menu option
 TileSetEditorMenu_Rename,Rename,名前を変更,,the rename animation or auto tile set context menu option
-RoomEditor_NoSelectionPathLayerStatus,"LMB + {0} to translate path, LMB + {1} to rotate path, LMB + {2} to scale path","パスの直線移動には LMB + {0}、パスの回転には LMB + {1}、パスの拡大縮小には LMB + {2} を使用します",,status bar information for editing paths
+RoomEditor_NoSelectionPathLayerStatus,"LMB + {0} to translate path, LMB + {1} to rotate path, LMB + {2} to scale path",パスの直線移動には LMB + {0}、パスの回転には LMB + {1}、パスの拡大縮小には LMB + {2} を使用します,,status bar information for editing paths
 YYP_DragDrop_Message,Load the project instead of adding a datafile?,データファイルを追加する代わりに、プロジェクトをロードしますか？,,confirm message
 YYP_DragDrop_Message_IDE,Load the project?,プロジェクトをロードしますか？,,confirm message
 StartPage_Web_RefreshDemos,Refresh owned demos.,所有デモをリフレッシュします。,,Refresh demos start page
@@ -4733,8 +4732,8 @@ INVALID_FILEPATH_PATHTOOLONG,File path is too long: {0},ファイルパスが長
 INVALID_INCLUDEDFILE_NAME_TITLE,Included File has invalid name,インクルードファイルに無効な名前があります,,Invalid included file name dialog box title
 INVALID_INCLUDEDFILE_NAME_MSG,"One or more included files has an invalid filename, should only contain a-z, A_Z, 0-9, _ or .\nSee the output panel for a list.",1 つまたは複数のインクルードファイルのファイル名が無効です。a ～ z、A ～ Z、0 ～ 9、_、または . のみ使用できます。\n出力パネルで一覧を確認してください。,,Invalid included file name dialog box message
 INVALID_INCLUDEDFILE_NAME,Included file with invalid filename: '{0}',無効なファイル名を持つインクルードファイル: '{0}',,Invalid Included file name output message
-Validate_InvalidFilename,"'{0}' contains invalid filename characters","'{0}' には無効なファイル名の文字が含まれています。",,Rename message
-InvalidIncludedFileName_Digit,"'{0}' starts with a number. Various platforms do not support this","'{0}' は数値で始まります。これは各種プラットフォームでサポートされていません",,Invalid Included File starting with a digit
+Validate_InvalidFilename,'{0}' contains invalid filename characters,'{0}' には無効なファイル名の文字が含まれています。,,Rename message
+InvalidIncludedFileName_Digit,'{0}' starts with a number. Various platforms do not support this,'{0}' は数値で始まります。これは各種プラットフォームでサポートされていません,,Invalid Included File starting with a digit
 roomeditor_selectioncolour,Selection frame colour,フレームの色の選択,,preference name for the selection frame colour for unlocked items in the room editor
 roomeditor_selectionlockedcolour,Locked selection frame colour,ロックされたアイテムのフレームの色の選択,,preference name for the selection frame colour for locked items in the room editor
 roomeditor_propertiescolour,Properties frame colour,フレームの色のプロパティ,,preference name for the properties frame colour for unlocked items in the room editor
@@ -5163,7 +5162,7 @@ FontEditor_ReplacementGlyphError,Using symbols not found in font (?),フォン�
 FontEditor_ReplacementGlyphError_Tooltip,This font is missing one or more symbols and will get replacements from other fonts,このフォントは 1 つ以上の記号が欠けているため、他のフォントから代わりが取得されます,,Tooltip
 FontEditor_MissingFontError,Font is not available on this machine (?),このマシンではフォントを使用できません (？),,This font is not available on this machine
 FontEditor_MissingFontError_Tooltip,Verify that the font is installed on your machine and try again,ご使用のマシンにフォントがインストールされていることを確認して、再試行してください。,,This font is not available on this machine tooltip
-Font_TooLargeTexPage,"Font """"{0}"""" packs more characters than can fit on the texture page. Some characters will not be visible.","フォント """"{0}"""" には、テクスチャページに収まりきらないほどの文字が含まれています。一部表示されない文字があります。",,Font too large for texture page warning dialog
+Font_TooLargeTexPage,"Font ""{0}"" packs more characters than can fit on the texture page. Some characters will not be visible.","フォント ""{0}"" には、テクスチャページに収まりきらないほどの文字が含まれています。一部表示されない文字があります。",,Font too large for texture page warning dialog
 Event_Gesture,Gesture,ジェスチャー,,Gesture event name
 Event_Gesture_Global,Global,グローバル,,Gesture event subtype
 Event_Gesture_Tap,Tap,タップ,,Tap gesture event name
@@ -5354,7 +5353,7 @@ ggs_windowsuap_xbox_live_scid,Service Configuration ID,サービス構成 ID,,Th
 Proxy_Settings,Proxy Settings,プロキシ設定,,Proxy settings window title
 Proxy_Address,Proxy,プロキシ,,proxy address label
 Proxy_Address_Tooltip,Proxy address and port (http://address:port),プロキシアドレスおよびポート (http://address:port),,proxy address tooltip
-Proxy_Address_Error,Error proxy must using "http://address:port" format,エラー。プロキシは "http://address:port" 形式を使用する必要があります,,proxy format error message
+Proxy_Address_Error,"Error proxy must using ""http://address:port"" format","エラー。プロキシは ""http://address:port"" 形式を使用する必要があります",,proxy format error message
 Proxy_Error_Title,Error: Invalid proxy setting,エラー:無効なプロキシ設定,,proxy error window title
 Proxy_Username,Username,ユーザー名,,proxy username label
 Proxy_Username_Tooltip,Proxy username,プロキシユーザー名,,proxy username tooltip
@@ -5477,7 +5476,7 @@ Pref_Visual_Studio_Path,Visual Studio Path,Visual Studio のパス,,Visual Studi
 ggs_share_overlay,"Share Overlay (128x128, 64x64, 256x128, 256x64)",シェアオーバーレイ (128x128、64x64、256x128、256x64),,Share Overlay image for playstation 4 caption
 Button_Preview,Preview,プレビュー,,Preview button caption
 Main,Main,メイン,,Main option group subheading
-Run_Timer_Format,d' Days 'h' Hours 'm' Minutes 's' Seconds',「d」 日「h」時「m」分「s」秒,"Do not change d,h,m or s as these are formatting tags",time format to display in run timer
+Run_Timer_Format,d' Days 'h' Hours 'm' Minutes 's' Seconds',d' 日'h'時'm'分's'秒',"Do not change d,h,m or s as these are formatting tags",time format to display in run timer
 Device_Manager_Platform,Platform,プラットフォーム,,Platform selector title for device manager
 Server,Server,サーバー,,Server preference group subheading
 Console,Console,コンソール,,Console preference group subheading
@@ -5615,7 +5614,7 @@ SyntaxError_VariableReferenceOnce,variable {0} only referenced once,変数 {0} �
 SyntaxError_VariableUnassigned,unassigned variable {0} referenced,未割り当ての変数 {0} が参照されました,,syntax error
 SyntaxError_ConstructorsOnly,only functions that are declared as constructors can use inheritance.,コンストラクタとして宣言された関数だけが継承を使用することができます。,,syntax error
 SyntaxError_InvalidFunctionModifier,unknown function atribute {0},不明な関数属性 {0},,syntax error
-SyntaxError_InheritedFunctionArguments,Inherited argument "{0}" is not in function arguments,継承された引数 "{0}" が関数の引数の中にありません,,syntax error
+SyntaxError_InheritedFunctionArguments,"Inherited argument ""{0}"" is not in function arguments","継承された引数 ""{0}"" が関数の引数の中にありません",,syntax error
 SyntaxError_Only16NamedArgs,only 16 named arguments supported in a function declaration,関数宣言でサポートされている名前付き引数は 16 個のみです,,syntax error
 SyntaxError_AssignmentToBuiltIn,Assignment to builtin variable/function/constant,組み込み変数/関数/定数への割り当て,,syntax error
 CompileError_Info,{0} at line {1} : {2},ライン {1} の {0}: {2},,"syntax error displayed to user (0 - source, 1 - line num, 2 - error description)"
@@ -6568,8 +6567,8 @@ ggs_top_shelf_wide_2x,Top Shelf Image Wide 2x,トップシェルフの画像 ワ
 ggs_icon_400_2x,400x240 Icon 2x,400x240 のアイコン 2x,,400x240 Icon 2x
 ggs_splash_screen_2x,Splash Screen Image 2x,スプラッシュ画面の画像 2x,,Splash Screen Image 2x
 ggs_xboxone_stats_system,Stats configuration system,Stats設定システム,,Stats configuration system
-ggs_xboxone_stats_2017,Title-Managed Stats ("Stats 2017"),Title-Managed Stats ("Stats 2017"),,the radio group option for 2017 stats
-ggs_xboxone_stats_2013,Event-Based Stats ("Stats 2013"),Event-Based Stats ("Stats 2013"),,the radio group option for 2013 stats
+ggs_xboxone_stats_2017,"Title-Managed Stats (""Stats 2017"")","Title-Managed Stats (""Stats 2017"")",,the radio group option for 2017 stats
+ggs_xboxone_stats_2013,"Event-Based Stats (""Stats 2013"")","Event-Based Stats (""Stats 2013"")",,the radio group option for 2013 stats
 ggs_xboxone_stats_system_tooltip,The 2013 system has been deprecated by Microsoft and should only be used for titles already in development \nThe 2017 system no longer requires a service manifest \nPlease see Microsoft documentation for more details,2013 システムは Microsoft によって非推奨とされており、すでに開発中のタイトルにのみ使用される必要があります \n2017 システムではサービスマニフェストが不要になりました \n詳細については、Microsoft のドキュメントを参照してください,,tooltip for the stats sytem radio group
 Error_ResourceLoadFailures_Message,Resource load failures encountered...,リソースのロードに失敗しました...,,non-blocking errors have occurred message
 Error_ResourceFailedToLoad,Failed to load {0},{0} の読み込みに失敗しました,,Failed to load given resource
@@ -6614,7 +6613,7 @@ Convert_Success_Message,The Project has successfully converted,プロジェク�
 Convert_Failed_Title,Conversion Failed,変換に失敗しました,,Project Conversion failed title
 Convert_Failed_Message,The Project conversion has failed,プロジェクトの変換に失敗しました,,Project Conversion failed message
 Convert_SameFolderMessage,You cannot save the converted project to the same folder as the original. Please select a new location.,変換後のプロジェクトを元のプロジェクトと同じフォルダーに保存することはできません。新しい場所を選択してください。,,convert same folder dont do it message
-exception_faq_button_caption,"To see what data this report contains, <a href=https://help.yoyogames.com/hc/en-us/articles/360028120992"">click here</a>""","このレポートに含まれる内容を確認するには、<a href=https://help.yoyogames.com/hc/en-us/articles/360028120992"">こちらをクリック</a>""してください",,exception faq button caption
+exception_faq_button_caption,"To see what data this report contains, <a href=""https://help.yoyogames.com/hc/en-us/articles/360028120992"">click here</a>","このレポートに含まれる内容を確認するには、<a href=""https://help.yoyogames.com/hc/en-us/articles/360028120992"">こちらをクリック</a>してください",,exception faq button caption
 exception_fatal_error_header_caption,A fatal exception has occurred in GameMaker and the program needs to close.\n\nWe are sorry for the inconvenience.,GameMaker で重大な例外が発生したため、プログラムを終了する必要があります。\n\nご不便をおかけして申し訳ありません。,,exception fatal error header caption
 exception_problem_header_caption,Please tell us about this problem.,この問題の詳細をお知らせください。,,exception problem header caption
 exception_blurb,"An error report has been created so that we can examine and prevent issues like this. It would be very helpful if you could provide further details relating to the context of this event. Specifically, what you were working on immediately beforehand.\n\nImportant\nBy pressing Send, you are providing consent for us to process the data detailed below in line with our Privacy Policy.",このような問題を検討し、防止するために、エラーレポートが作成されました。このイベントの背景について、さらに詳しく教えていただけると幸いです。具体的には、問題が生じる直前まで取り組んでいたことをお知らせください。\n\n重要\n[送信] を押すことにより、お客様は、当社のプライバシーポリシーに基づき、以下の詳細なデータを処理することに同意したことになります。,,exception blurb
@@ -6658,8 +6657,8 @@ Category_SoundInfo,Sound Information,サウンド情報,,inspector category labe
 Category_InstanceInfo,Instance Information,インスタンス情報,,inspector category label
 Category_SequenceInfo,Sequence Information,シーケンス情報,,inspector category label
 GMScript_DefaultComment,// Script assets have changed for v2.3.0 see\n// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information,// スクリプトのアセットが v2.3.0 用に変更されました。 詳細については、\n// https://help.yoyogames.com/hc/en-us/articles/360005277377 を参照してください,,default script comment
-GMScript_DnDBoilerPlate,/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDComment : ${comment}\n/// @DnDArgument : "funcName" "${funcName}"\nfunction ${funcName}(){\n\n},/// @DnDAction :YoYo Games.Common.Function\n/// @DnDVersion :1\n/// @DnDHash : ${hash}\n/// @DnDComment : ${comment}\n/// @DnDArgument : "funcName" "${funcName}"\nfunction ${funcName}(){\n\n},,GML Boiler plate for a new script
-GMScript_DnDFuncDecl,/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDArgument : "funcName" "${funcName}"\nfunction ${funcName}(){\n\n},/// @DnDAction :YoYo Games.Common.Function\n/// @DnDVersion :1\n/// @DnDHash : ${hash}\n/// @DnDArgument : "funcName" "${funcName}"\nfunction ${funcName}(){\n\n},,GML function declaration template
+GMScript_DnDBoilerPlate,"/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDComment : ${comment}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}","/// @DnDAction :YoYo Games.Common.Function\n/// @DnDVersion :1\n/// @DnDHash : ${hash}\n/// @DnDComment : ${comment}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}",,GML Boiler plate for a new script
+GMScript_DnDFuncDecl,"/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}","/// @DnDAction :YoYo Games.Common.Function\n/// @DnDVersion :1\n/// @DnDHash : ${hash}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}",,GML function declaration template
 AssetBrowser_CreateLotsOfResourcesWarning,Do you want to create {0} Assets?,{0} 個のアセットを作成しますか？,,label to warn user they are about to create a lot of resources
 AssetBrowser_CreateLotsOfResourcesTitle,Creating Lots of Assets,複数のアセットの作成,,title for warning dialog box
 YoYoImage_UnknownFileFormat,Image format not recognised,画像の形式が認識されていない,,This image format was not recognised
@@ -6701,7 +6700,7 @@ SourceControl_Checkout_Warning,Couldn't perform checkout. Please check Source Co
 SourceControl_Log_Warning,Couldn't retrieve log. Please check Source Control Output for more information,ログを取得できませんでした。詳細については、ソース管理出力を確認してください,,Warning for git log failure.
 SourceControl_Create_Warning,Couldn't create repository. Please check Source Control Output for more information,リポジトリを作成できませんでした。詳細については、ソース管理出力を確認してください,,Warning for git create failure.
 SourceControl_Merge_Warning,Couldn't complete merge operation. Please check Source Control Output for more information,マージ操作を完了できませんでした。詳細については、ソース管理出力を確認してください,,Warning for git merge failure.
-exception_legal_blurb,"Our <a href="https://www.yoyogames.com/legal/privacy">Privacy Policy</a> and <a href="https://www.yoyogames.com/legal/cookies">Cookie Policy</a> governs the way we collect, store and process your data. We strongly recommend you take the time to read them.\n\nRight to withdraw consent: You have the right to withdraw consent at any time. If you wish to withdraw consent, you may do so via our Preference Centre, or by logging a ticket with our Helpdesk.\n\nIf you have any concerns about our use of data, please email our data controller at <a href="mailto:datacontroller@yoyogames.com">datacontroller@yoyogames.com</a>\n\nForm version: "," データを保存し、処理します。ぜひともご一読くださいますようお願いいたします。\n\n同意を撤回する権利:お客様は、いつでも同意を撤回する権利を有します。同意の撤回をご希望の場合	 当社の<a href="https://www.yoyogames.com/legal/privacy">プライバシーポリシー</a> および <a href="https://www.yoyogames.com/legal/cookies">Cookie ポリシー</a>は、当社がお客様のデータを収集、	 保存、および処理する方法を規定しています。ぜひともご一読くださいますようお願いいたします。\n\n同意を撤回する権利:お客様は、いつでも同意を撤回する権利を有します。同意の撤回をご希望の場合	 プリファレンスセンターを経由するか、	 またはヘルプデスクにチケットを登録することにより、手続きを行うことができます。\n\n当社のデータの利用についてご不明な点がある場合は	 当社のデータ管理者宛て (<a href="mailto:datacontroller@yoyogames.com">datacontroller@yoyogames.com</a>) にメールをお送りください\n\nfフォームのバージョン:",,exception legal blurb
+exception_legal_blurb,"Our <a href=""https://www.yoyogames.com/legal/privacy"">Privacy Policy</a> and <a href=""https://www.yoyogames.com/legal/cookies"">Cookie Policy</a> governs the way we collect, store and process your data. We strongly recommend you take the time to read them.\n\nRight to withdraw consent: You have the right to withdraw consent at any time. If you wish to withdraw consent, you may do so via our Preference Centre, or by logging a ticket with our Helpdesk.\n\nIf you have any concerns about our use of data, please email our data controller at <a href=""mailto:datacontroller@yoyogames.com"">datacontroller@yoyogames.com</a>\n\nForm version: "," データを保存し、処理します。ぜひともご一読くださいますようお願いいたします。\n\n同意を撤回する権利:お客様は、いつでも同意を撤回する権利を有します。同意の撤回をご希望の場合	 当社の<a href=""https://www.yoyogames.com/legal/privacy"">プライバシーポリシー</a> および <a href=""https://www.yoyogames.com/legal/cookies"">Cookie ポリシー</a>は、当社がお客様のデータを収集、	 保存、および処理する方法を規定しています。ぜひともご一読くださいますようお願いいたします。\n\n同意を撤回する権利:お客様は、いつでも同意を撤回する権利を有します。同意の撤回をご希望の場合	 プリファレンスセンターを経由するか、	 またはヘルプデスクにチケットを登録することにより、手続きを行うことができます。\n\n当社のデータの利用についてご不明な点がある場合は	 当社のデータ管理者宛て (<a href=""mailto:datacontroller@yoyogames.com"">datacontroller@yoyogames.com</a>) にメールをお送りください\n\nfフォームのバージョン:""",,exception legal blurb
 Button_Search,Search,検索,,search button label
 Inspector_Category_Nineslice,Nine Slices,9スライス,,Inspector category
 Inspector_Field_WidthC,W:,W:,,inspector field label
@@ -6792,10 +6791,10 @@ WebAssembly,WASM,WASM,DO NOT TRANSLATE,WASM preference group subheading
 Wasm,WASM,WASM,DO NOT TRANSLATE,WASM preference group subheading
 Opera GX,GX.games,GX.games,DO NOT TRANSLATE,Opera GX preference group subheading
 Options_PS5ToolsSetupError,PlayStation 5 Tools Missing,PlayStation 5ツールが不明です,,error dialog title when unable to find a ps5 tool
-Options_PS5ToolsSetupTrophyMessage,"Unable to find PlayStation 5 trophy editor.\nPlease update your tools directory.\n{0}","PlayStation5のトロフィーエディタが見つかりません。\nご利用のツールディレクトリを更新してください。\n{0}",,error message when failed to find the trophy editor
+Options_PS5ToolsSetupTrophyMessage,Unable to find PlayStation 5 trophy editor.\nPlease update your tools directory.\n{0},PlayStation5のトロフィーエディタが見つかりません。\nご利用のツールディレクトリを更新してください。\n{0},,error message when failed to find the trophy editor
 Options_PS5ToolsPreference,Go to PlayStation 5 settings,PlayStation 5設定に移動,,button message to take user to PS5 preferences
-Options_PS5ToolsSetupParamSFOMessage,"Unable to find PlayStation 5 param.sfo editor.\nPlease update your tools directory.\n{0}","PlayStation 5param.sfoエディタが見つかりません。\nご利用のツールディレクトリを更新してください。\n{0}",,error message when failed to find the param.sfo editor
-Options_PS5ToolsSetupShareParamMessage,"Unable to find PlayStation 5 share file editor.\nPlease update your tools directory.\n{0}","PlayStation5共有ファイルエディタが見つかりません。\nご利用のツールディレクトリを更新してください。\n{0}}",,error message when failed to find the param.sfo editor
+Options_PS5ToolsSetupParamSFOMessage,Unable to find PlayStation 5 param.sfo editor.\nPlease update your tools directory.\n{0},PlayStation 5param.sfoエディタが見つかりません。\nご利用のツールディレクトリを更新してください。\n{0},,error message when failed to find the param.sfo editor
+Options_PS5ToolsSetupShareParamMessage,Unable to find PlayStation 5 share file editor.\nPlease update your tools directory.\n{0},PlayStation5共有ファイルエディタが見つかりません。\nご利用のツールディレクトリを更新してください。\n{0}},,error message when failed to find the param.sfo editor
 SyntaxError_SameArgument,argument name {0} already used in function declaration,関数宣言ですでに使用されている引数名{0},,syntax error
 ConfigurationProblem_PS5SDK,Configuration Problem : PS5 SDK not found. Check your Preferences.,設定の問題：PS5 SDKが見つかりません詳細設定を確認してください,,Configuration Problem : PS5 SDK not found. Check your Preferences.
 ConfigurationProblem_PS5Tools,Configuration Problem : PS5 Tools directory not found. Check your Preferences.,設定の問題：PS5ツールディレクトリが見つかりません。詳細設定を確認してください,,Configuration Problem : PS5 Tools directory not found. Check your Preferences.
@@ -6913,10 +6912,10 @@ ROOM_EFFECTS_filter_whitenoise,White Noise,ホワイトノイズ,,white noise fi
 ROOM_EFFECTS_Animation,Animation,アニメーション,,animation param name
 SoundMixer_LoadAudioGroup,Load Audio Group:,オーディオグループの読み込み:,,Sound Mixer Load Audio Group label
 SoundEditor_OggLabel,Conversion (for OGG only):,変換（OGGのみ）：,,Ogg conversion option
-SourceControlConflictsDetectedOnLoad,"There are conflicts within this project. If you continue loading, it may be broken. It is recommended to resolve the git conflicts before. Are you sure you wish to continue loading?","このプロジェクトにはコンフリクトがあります。読み込みを続けると壊れる可能性があります。事前にgitコンフリクトを解決することをお勧めします。読み込みを続行してもよろしいですか？",,Conflicts Detected message on opening a project
+SourceControlConflictsDetectedOnLoad,"There are conflicts within this project. If you continue loading, it may be broken. It is recommended to resolve the git conflicts before. Are you sure you wish to continue loading?",このプロジェクトにはコンフリクトがあります。読み込みを続けると壊れる可能性があります。事前にgitコンフリクトを解決することをお勧めします。読み込みを続行してもよろしいですか？,,Conflicts Detected message on opening a project
 TextureGroups_CompressBZ2,BZ2 Compress,BZ2圧縮,,Texture group compression checkbox label
 UserLogin_OperaAccount,Opera Account,Operaアカウント,,opera account
-UserLogin_OperaLoginInfo,"Use your Opera account to sign in to YoYo Accounts.\nBoth accounts must be linked","OperaアカウントでYoYoアカウントにサインインしてください。\nアカウントを両方ともリンクする必要があります",,opera login info text
+UserLogin_OperaLoginInfo,Use your Opera account to sign in to YoYo Accounts.\nBoth accounts must be linked,OperaアカウントでYoYoアカウントにサインインしてください。\nアカウントを両方ともリンクする必要があります,,opera login info text
 UserLogin_LinkAccountsAt,Link your accounts at,アカウントリンク先,,link accounts info label
 UserLogin_OperaSSO,Opera Single Sign-In,Opera単一サインイン,,single sign in button label
 UserLogin_ForgottenPassword,Forgotten password?,パスワードをお忘れですか？,,login forgotten password label
@@ -6945,7 +6944,7 @@ ggs_template_desc,Description,説明,,project template description
 mytemplateprojectslocation,Template Projects directory,テンプレートプロジェクトディレクトリ,,user Template Projects location setting
 pref_laptop_mode,Force Laptop mode,ラップトップモードを強制,,Preference to force the laptop mode on or off
 ggs_game_guid_change_confirmation,Are you sure to change the GUID?,GUIDを変更しますか？,,Confirmation of changing the game GUID
-Project_Changes_OnRepairing,"The project files were corrupted. The changes were applied. Do you want to save the changes?","プロジェクトファイルが破損しています。変更が適用されました。変更を保存しますか？",,Project was corrupted and changed by the IDE to fix it
+Project_Changes_OnRepairing,The project files were corrupted. The changes were applied. Do you want to save the changes?,プロジェクトファイルが破損しています。変更が適用されました。変更を保存しますか？,,Project was corrupted and changed by the IDE to fix it
 operagx_synchronized,Synchronizing with Opera GX...,Opera GXと同期しています...,,Output Message on starting synchronizing with OperaGX
 operagx_failed_to_refresh_token,failed to refresh token... logout of GameMaker and login again,トークンの更新に失敗しました...GameMakerからログアウトし、再度ログインしてください,,Output Message tracking Packaging for OperaGX process
 operagx_out_compilationbeforeupload_failed,Compilation failed. GXC upload cancelled. See the console output and the compile errors.,コンパイルに失敗しました。GXCアップロードがキャンセルされましたコンソール出力とコンパイルエラーを参照してください。,,"Output Message to show then the compilation failed in the ""OperaGX Packaging"" window"
@@ -6957,7 +6956,7 @@ opera_sync_empty_guid,The GUID is empty. The project will be registered on GXC a
 opera_sync_syncronization_on,Synchronization...,同期...,,Synchronization button label during synchronization process
 opera_sync_synchronize,Synchronize,データの同期,,Synchronization button label when the user is logged in
 opera_sync_signin_and_synchronize,Sign-in and synchronize,サインインおよびデータの同期,,Synchronization button label when the user is not logged in
-opera_sync_guid_valid,"With the GUID provided, you may change the game settings only on GXC","GUIDが提供されれば、GXCだけでゲームの設定を変更することができます。",,Tip for the user for a valid GUID
+opera_sync_guid_valid,"With the GUID provided, you may change the game settings only on GXC",GUIDが提供されれば、GXCだけでゲームの設定を変更することができます。,,Tip for the user for a valid GUID
 opera_sync_guid_not_valid_format,GUID format is not valid,GUID形式が無効です,,Tip for an invalid GUID
 opera_sync_incorrect_data,Incorrect data. Check the output,データが正しくありません。出力を確認してください,,Incorrect data warning message
 xbox_package_xbone,Xbox One package,Xbox Oneパッケージ,,Package built for Xbox One consoles
@@ -6981,11 +6980,11 @@ StartScreen_TourTitle_4,"""Tutorials""","""チュートリアル""",,start scree
 StartScreen_TourTitle_5,"""Recent Projects""","""最近のプロジェクト""",,start screen tour label
 StartScreen_SkipTourWiz,SKIP to Setup Wizard,セットアップウィザードにスキップ,,start screen tour label
 StartScreen_SkipTour,SKIP Tour,ツアーをスキップ,,start screen skip tour label
-StartScreen_TourDesc_1,"Start from scratch with a new empty project or start from a template; one we've included or one of your own","新規のまっさらなプロジェクトで最初から始めるか、テンプレート、つまり弊社提供のものかユーザー自身のものから始めます",,start screen tour label
-StartScreen_TourDesc_2,"Open a project you've already started and continue from when your last saved","すでに開始したプロジェクトを開き、最後に保存した箇所から続行します",,start screen tour label
-StartScreen_TourDesc_3,"Import a project that has previously been exported or is from a legacy version of GameMaker","以前にエクスポートされたプロジェクト、またはGameMakerのレガシーバージョンからのプロジェクトをインポートします",,start screen tour label
-StartScreen_TourDesc_4,"Browse all of the available tutorials through your web browser","ご利用のウェブブラウザで利用可能なすべてのチュートリアルを閲覧する",,start screen tour label
-StartScreen_TourDesc_5,"An area that will display all of the projects you have opened recently, it may be easier to select your project from here instead of using the 'Open' button above, if you are reopening a project that you were working on recently","最近開いたすべてのプロジェクトが表示される領域。最近作業していたプロジェクトを再度開く場合は、上の[開く]ボタンを使用するよりも、こちらから該当するプロジェクトを選択する方が簡単な場合があります。",,start screen tour label
+StartScreen_TourDesc_1,Start from scratch with a new empty project or start from a template; one we've included or one of your own,新規のまっさらなプロジェクトで最初から始めるか、テンプレート、つまり弊社提供のものかユーザー自身のものから始めます,,start screen tour label
+StartScreen_TourDesc_2,Open a project you've already started and continue from when your last saved,すでに開始したプロジェクトを開き、最後に保存した箇所から続行します,,start screen tour label
+StartScreen_TourDesc_3,Import a project that has previously been exported or is from a legacy version of GameMaker,以前にエクスポートされたプロジェクト、またはGameMakerのレガシーバージョンからのプロジェクトをインポートします,,start screen tour label
+StartScreen_TourDesc_4,Browse all of the available tutorials through your web browser,ご利用のウェブブラウザで利用可能なすべてのチュートリアルを閲覧する,,start screen tour label
+StartScreen_TourDesc_5,"An area that will display all of the projects you have opened recently, it may be easier to select your project from here instead of using the 'Open' button above, if you are reopening a project that you were working on recently",最近開いたすべてのプロジェクトが表示される領域。最近作業していたプロジェクトを再度開く場合は、上の[開く]ボタンを使用するよりも、こちらから該当するプロジェクトを選択する方が簡単な場合があります。,,start screen tour label
 StartScreen_ChooseTemplate,CHOOSE YOUR TEMPLATE,テンプレートを選択,,start screen label
 StartScreen_SelectTemplate,Please select a project template,プロジェクトテンプレートを選択してください,,start screen label
 StartScreen_RecentProjects,RECENT PROJECTS,最近のプロジェクト,,start screen label
@@ -7000,9 +6999,9 @@ SS_ProjectLocationLabel,Location:,場所:,,start screen project location label
 SS_ProjDirInUse,Project directory name already exists,プロジェクトディレクトリ名はすでに存在します,,proj dir in use warning
 StartScreen_WizardTitle,Set Up Wizard,設定ウィザード,,setup wizard title
 SS_WizardStepNum,Step {0} of {1},{1}のステップ{0},,setup wizard label
-SS_Wizard_StepDesc_1,"Let's get you started setting up your first project.\nFirst, click on the button below labelled 'NEW'.","最初のプロジェクトの設定を始めましょう。\nまず、「新規」というラベルの付いた以下のボタンをクリックします。",,setup wizard label
-SS_Wizard_StepDesc_2,"Select a template below, or choose BLANK to start a fresh new project","以下のテンプレートを選択するか、[空白]を選択して新規プロジェクトを開始します",,setup wizard label
-SS_Wizard_StepDesc_3,"Give your project a name, choose a save location, and just jump right in!","プロジェクトに名前を付け、保存場所を選択して、すぐに開始してください。",,setup wizard label
+SS_Wizard_StepDesc_1,"Let's get you started setting up your first project.\nFirst, click on the button below labelled 'NEW'.",最初のプロジェクトの設定を始めましょう。\nまず、「新規」というラベルの付いた以下のボタンをクリックします。,,setup wizard label
+SS_Wizard_StepDesc_2,"Select a template below, or choose BLANK to start a fresh new project",以下のテンプレートを選択するか、[空白]を選択して新規プロジェクトを開始します,,setup wizard label
+SS_Wizard_StepDesc_3,"Give your project a name, choose a save location, and just jump right in!",プロジェクトに名前を付け、保存場所を選択して、すぐに開始してください。,,setup wizard label
 SS_Wizard_DontShowAgain,Don't show me again,次回から表示しない,,dont show again label
 SS_ButtonGo,Let's Go!,始めよう！,,startscreen go button label
 SS_DirectoryNotExists,Directory '{0}' does not exist.\nPlease verify the project location and try again.,ディレクトリ'{0}'は存在しません。\nそのプロジェクトの場所を確認して、再度試してください。,,Startscreen project directory does not exist
@@ -7168,15 +7167,15 @@ runtime_dns_DnsTestHasFailed,DNS test has failed,DNS テストに失敗しまし
 runtime_dns_DnsTestHasFailedMessage,DNS resolving test has failed with the current settings. Alternative DNS has been disabled,現在の設定での DNS 問題解決テストに失敗しました。別の DNS は無効になりました,,A warning which is shown after failing the DNS test
 runtime_dns_ResolvingFailed,DNS resolving has failed,DNS 解決に失敗しました,,A title of the warning which is shown when after the IDE failed to resolve an address against an alternative DNS
 runtime_dns_ResolvingFailedMessage,Could not resolve {0} with an alternative DNS. A system DNS has been used,別の DNS で {0} を解決できませんでした。システム DNS が使用されました,,Could not use an alternative DNS
-runtime_empty_dns_warning,"No DNS IP specified - the runtime feeds will be resolved against a system DNS","DNS IP が指定されていません - システム DNS に対するランタイムフィードが解決されます",,"A tip which is shown in the Preferences window when a user leaves the field ""Alternative DNS IP"" empty"
+runtime_empty_dns_warning,No DNS IP specified - the runtime feeds will be resolved against a system DNS,DNS IP が指定されていません - システム DNS に対するランタイムフィードが解決されます,,"A tip which is shown in the Preferences window when a user leaves the field ""Alternative DNS IP"" empty"
 ProgressBar_DnsTest,Testing DNS...,DNS をテスト中...,,A title of the progress bar
 GoTo_Pref_RedefineKeys,Search in Redefine Keys,キーの再定義で検索,,search redfine keys pref
-SS_Wizard_StepDesc_3BlankA,"You've selected 'New Blank' template.","「新規空白」テンプレートを選択しました。",,setup wizard label
+SS_Wizard_StepDesc_3BlankA,You've selected 'New Blank' template.,「新規空白」テンプレートを選択しました。,,setup wizard label
 SS_NewDescHeader,Description:,説明:,,start screen new project description
 SS_NewDesc,Create an empty GameMaker project. Build your game up from a blank canvas.,空の GameMaker プロジェクトを作成します。空白のキャンバスからゲームを構築します。,,start screen new project description
 SS_NewInfoHeader,Other Info:,その他の情報:,,start screen new project description
 SS_NewInfo,Set your scripting preference in Game Options/Preferences.,ゲームオプション/環境設定でスクリプトの環境設定を設定します。,,start screen new project description
-Validate_InvalidPathTooLong,"Path is too long: '{0}'.","パスが長すぎます: {0}",,Rename message
+Validate_InvalidPathTooLong,Path is too long: '{0}'.,パスが長すぎます: {0},,Rename message
 Visual Editor,Visual Editor,ビジュアルエディター,,Visual Editor preference group subheading
 GMLVisual,GML Visual,GML Visual,,GML Visual preference group subheading
 FileFilter_TemplateProject,GameMaker Project Template,GameMaker プロジェクトテンプレート,,template project filter
@@ -7185,92 +7184,92 @@ ScriptType_SelectLang,Select the scripting language for your project:,プロジ�
 ScriptType_SelectLang_Info,Note: This can be changed at any time,Note:これはいつでも変更できます。,,select scripting language label
 ScriptType_Code,GML CODE,GML CODE,,code scripting type
 ScriptType_Visual,GML VISUAL,GML VISUAL,,visual scripting type
-ScriptType_CodeDesc,"Program your game with GML's simple coding syntax and powerful object-oriented language features, suitable for users learning how to code and advanced programmers skilled in industry-standard languages.","GML のシンプルなコーディング構文とパワフルなオブジェクト指向の言語機能で、ゲームをプログラムします。コーディングを勉強中のユーザーや業界標準の言語スキルを身に付けたハイレベルなプログラマーに適しています。",,code script type description
-ScriptType_VisualDesc,"Visually program your game using actions. Learn coding through visual blocks. Preview the code behind your actions and convert to code at any time.","アクションを使用してゲームを視覚的にプログラムします。ビジュアルブロックからコーディングを学びます。アクションに裏付けられたコードをプレビューして、随時コードに変換できます。",,visual script type description
+ScriptType_CodeDesc,"Program your game with GML's simple coding syntax and powerful object-oriented language features, suitable for users learning how to code and advanced programmers skilled in industry-standard languages.",GML のシンプルなコーディング構文とパワフルなオブジェクト指向の言語機能で、ゲームをプログラムします。コーディングを勉強中のユーザーや業界標準の言語スキルを身に付けたハイレベルなプログラマーに適しています。,,code script type description
+ScriptType_VisualDesc,Visually program your game using actions. Learn coding through visual blocks. Preview the code behind your actions and convert to code at any time.,アクションを使用してゲームを視覚的にプログラムします。ビジュアルブロックからコーディングを学びます。アクションに裏付けられたコードをプレビューして、随時コードに変換できます。,,visual script type description
 ScriptType_DontAskProject,Don't ask again for this project,このプロジェクトでは次回から確認しない,,dont ask again this project
 ScriptType_DontAskEver,Don't ask again ever,今後確認しない,,dont ask again all projects
 ListBoxEnum_eDefaultScriptType_None,Always Ask,常に確認する,,default script type none
 ListBoxEnum_eDefaultScriptType_GML,GML Code,GML Code,,default script type gml
 ListBoxEnum_eDefaultScriptType_GMLVisual,GML Visual,GML Visual,,default script type GML Visual
 default_script_pref,Default scripting language,デフォルトのスクリプト言語,,default scripting language preference
-GMStdCatTime,"Time","時",,GML Visual library category name
-GMStdTimeSource,"Time Source","タイムソース",,GML Visual library argument label
-GMStdParent,"Parent","親",,GML Visual library argument label
-GMStdPeriod,"Period",".",,GML Visual library argument label
-GMStdUnits,"Units","単位",,GML Visual library argument label
-GMStdCallback,"Callback","コールバック",,GML Visual library argument label
-GMStdReps,"Repetitions","繰り返し",,GML Visual library argument label
-GMStdExpiryType,"Expiry Type","期限タイプ",,GML Visual library argument label
-GMStdVar_time_source_global,"Global Time Source","グローバルのタイムソース",,GML Visual argument value
-GMStdVar_time_source_game,"Game Time Source","ゲームのタイムソース",,GML Visual argument value
-GMStdVar_time_source_units_seconds,"Seconds","秒",,GML Visual argument value
-GMStdVar_time_source_units_frames,"Frames","フレーム",,GML Visual argument value
-GMStdVar_time_source_expire_nearest,"Nearest","最も近い",,GML Visual argument value
-GMStdVar_time_source_expire_after,"After","後",,GML Visual argument value
-GMStdVar_time_source_state_initial,"Initial","最初",,GML Visual argument value
-GMStdVar_time_source_state_active,"Active","未完了",,GML Visual argument value
-GMStdVar_time_source_state_paused,"Paused","一時停止中",,GML Visual argument value
-GMStdVar_time_source_state_stopped,"Stopped","停止",,GML Visual argument value
-GMStdTimeSourceCreate_Name,"Create Time Source","タイムソースを作成",,GML Visual action name
-GMStdTimeSourceCreate_Desc,"Create a time source.","タイムソースを作成します。",,GML Visual action description
-GMStdTimeSourceCreate_Story,"Create a time source and assign it to ${idx}","タイムソースを作成して ${idx} に割り当てます",,GML Visual story text
-GMStdTimeSourceDestroy_Name,"Destroy Time Source","タイムソースを破棄",,GML Visual action name
-GMStdTimeSourceDestroy_Desc,"Destroy a time source.","タイムソースを破棄します。",,GML Visual action description
-GMStdTimeSourceStart_Name,"Start Time Source","タイムソースを開始",,GML Visual action name
-GMStdTimeSourceStart_Desc,"Start a time source.","タイムソースを開始します。",,GML Visual action description
-GMStdTimeSourceStart_Story,"Start time source ${idx}","タイムソース ${idx} を開始します",,GML Visual story text
-GMStdTimeSourceStop_Name,"Stop Time Source","タイムソースを停止",,GML Visual action name
-GMStdTimeSourceStop_Desc,"Stop a time source.","タイムソースを停止します。",,GML Visual action description
-GMStdTimeSourceStop_Story,"Stop time source ${idx}","タイムソース ${idx} を停止します",,GML Visual story text
-GMStdTimeSourcePause_Name,"Pause Time Source","タイムソースを一時停止",,GML Visual action name
-GMStdTimeSourcePause_Desc,"Pause a time source.","タイムソースを一時停止します。",,GML Visual action description
-GMStdTimeSourcePause_Story,"Pause time source ${idx}","タイムソース ${idx} を一時停止します",,GML Visual story text
-GMStdTimeSourceReset_Name,"Reset Time Source","タイムソースをリセット",,GML Visual action name
-GMStdTimeSourceReset_Desc,"Reset a time source.","タイムソースをリセットします。",,GML Visual action description
-GMStdTimeSourceReset_Story,"Reset time source ${idx}","タイムソース ${idx} をリセットします",,GML Visual story text
-GMStdTimeSourceReconfigure_Name,"Reconfigure Time Source","タイムソースを再設定",,GML Visual action name
-GMStdTimeSourceReconfigure_Desc,"Reset and reconfigure a time source.","タイムソースをリセットして再設定します。",,GML Visual action description
-GMStdTimeSourceReconfigure_Story,"Reset and reconfigure time source ${idx}","タイムソース ${idx} をリセットして再設定します",,GML Visual story text
-GMStdTimeSourceGetPeriod_Name,"Get Period",". を取得",,GML Visual action name
-GMStdTimeSourceGetPeriod_Desc,"Get the period of a time source.","タイムソースの . を取得します。",,GML Visual action description
-GMStdTimeSourceGetPeriod_Story,"Get the period of time source ${idx} and assign it to ${var}","タイムソースの . ${idx} を取得して ${var} に割り当てます",,GML Visual story text
-GMStdTimeSourceGetRepsCompleted_Name,"Get Reps Completed","完了した繰り返し数を取得",,GML Visual action name
-GMStdTimeSourceGetRepsCompleted_Desc,"Get the number of repetitions a time source has completed.","タイムソースの完了した繰り返し数を取得します。",,GML Visual action description
-GMStdTimeSourceGetRepsCompleted_Story,"Get the number of completed repetitions of time source ${idx} and assign it to ${var}","タイムソース ${idx} の完了した繰り返し数を取得して ${var} に割り当てます",,GML Visual story text
-GMStdTimeSourceGetRepsRemaining_Name,"Get Reps Remaining","残りの繰り返し数を取得",,GML Visual action name
-GMStdTimeSourceGetRepsRemaining_Desc,"Get the number of repetitions a time source has remaining.","タイムソースの残りの.繰り返し数を取得します。",,GML Visual action description
-GMStdTimeSourceGetRepsRemaining_Story,"Get the number of remaining repetitions of time source ${idx} and assign it to ${var}","タイムソース ${idx} の残りの繰り返し数を取得して ${var} に割り当てます。",,GML Visual story text
-GMStdTimeSourceGetUnits_Name,"Get Units","単位を取得",,GML Visual action name
-GMStdTimeSourceGetUnits_Desc,"Get the units of a time source.","タイムソースの単位を取得します。",,GML Visual action description
-GMStdTimeSourceGetUnits_Story,"Get the units of time source ${idx} and assign it to ${var}","タイムソースの単位 ${idx} を取得して ${var} に割り当てます",,GML Visual story text
-GMStdTimeSourceGetTimeRemaining_Name,"Get Time Remaining","残り時間を取得",,GML Visual action name
-GMStdTimeSourceGetTimeRemaining_Desc,"Get the time remaining on a time source.","タイムソースの残り時間を取得します。",,GML Visual action description
-GMStdTimeSourceGetTimeRemaining_Story,"Get the time remaining on time source ${idx} and assign it to ${var}","タイムソースの残り時間 ${idx} を取得して ${var} に割り当てます",,GML Visual story text
-GMStdTimeSourceGetState_Name,"Get State","状態を取得",,GML Visual action name
-GMStdTimeSourceGetState_Desc,"Get the current state of a time source.","タイムソースの現在の状態を取得します。",,GML Visual action description
-GMStdTimeSourceGetState_Story,"Get the current state of time source ${idx} and assign it to ${var}","タイムソースの現在の状態 ${idx} を取得して ${var} に割り当てます",,GML Visual story text
-GMStdTimeSourceGetParent_Name,"Get Parent","親を取得",,GML Visual action name
-GMStdTimeSourceGetParent_Desc,"Get the parent of a time source.","タイムソースの親を取得します。",,GML Visual action description
-GMStdTimeSourceGetParent_Story,"Get the parent of time source ${idx} and assign it to ${var}","タイムソースの親 ${idx} を取得して ${var} に割り当てます",,GML Visual story text
-GMStdTimeSourceGetChildren_Name,"Get Children","子を取得",,GML Visual action name
-GMStdTimeSourceGetChildren_Desc,"Get the children of a time source.","タイムソースの子を取得します。",,GML Visual action description
-GMStdTimeSourceGetChildren_Story,"Get the children of time source ${idx} and assign it to ${var}","タイムソースの子 ${idx} を取得して ${var} に割り当てます",,GML Visual story text
-GMStdTimeSourceExists_Name,"If Time Source Exists","タイムソース存在チェック",,GML Visual action name
-GMStdTimeSourceExists_Desc,"Check if a time source exists.","タイムソースの存在をチェックします。",,GML Visual action description
-GMStdTimeSourceExists_Story_1,"If time source ${idx} exists","タイムソース ${idx} が存在する場合",,GML Visual story text
-GMStdTimeSourceExists_Story_2,"If time source ${idx} does not exist","タイムソース ${idx} が存在しない場合",,GML Visual story text
-GMStdIfTimeSourceState_Name,"If State","状態チェック",,GML Visual action name
-GMStdIfTimeSourceState_Desc,"Check if a time source's state satisfies a condition.","タイムソースの状態が条件を満たしているかどうかをチェックします。",,GML Visual action description
-GMStdIfTimeSourceState_Story_1,"If the state of time source ${idx} is ${state}","タイムソースの状態 ${idx} が ${state} である場合",,GML Visual story text
-GMStdIfTimeSourceState_Story_2,"If the state of time source ${idx} is not ${state}","タイムソースの状態 ${idx} が ${state} でない場合",,GML Visual story text
-GMStdIfTimeSourceUnits_Name,"If Units","単位チェック",,GML Visual action name
-GMStdIfTimeSourceUnits_Desc,"Check if a time source's units satisfies a condition.","タイムソースの単位が条件を満たしているかどうかをチェックします。",,GML Visual action description
-GMStdIfTimeSourceUnits_Story_1,"If the units of time source ${idx} are ${units}","タイムソースの単位 ${idx} が ${units} である場合",,GML Visual story text
-GMStdIfTimeSourceUnits_Story_2,"If the units of time source ${idx} are not ${units}","タイムソースの単位 ${idx} が ${units} でない場合",,GML Visual story text
-GMStdIfTimeSourceParent_Name,"If Parent","親チェック",,GML Visual action name
-GMStdIfTimeSourceParent_Desc,"Check if a time source's parent satisfies a condition.","タイムソースの親が条件を満たしているかどうかをチェックします。",,GML Visual action description
-GMStdIfTimeSourceParent_Story_1,"If the parent of time source ${idx} is ${parent}","タイムソースの親 ${idx} が ${parent} である場合",,GML Visual story text
-GMStdIfTimeSourceParent_Story_2,"If the parent of time source ${idx} is not ${parent}","タイムソースの親 ${idx} が ${state} でない場合",,GML Visual story text
+GMStdCatTime,Time,時,,GML Visual library category name
+GMStdTimeSource,Time Source,タイムソース,,GML Visual library argument label
+GMStdParent,Parent,親,,GML Visual library argument label
+GMStdPeriod,Period,.,,GML Visual library argument label
+GMStdUnits,Units,単位,,GML Visual library argument label
+GMStdCallback,Callback,コールバック,,GML Visual library argument label
+GMStdReps,Repetitions,繰り返し,,GML Visual library argument label
+GMStdExpiryType,Expiry Type,期限タイプ,,GML Visual library argument label
+GMStdVar_time_source_global,Global Time Source,グローバルのタイムソース,,GML Visual argument value
+GMStdVar_time_source_game,Game Time Source,ゲームのタイムソース,,GML Visual argument value
+GMStdVar_time_source_units_seconds,Seconds,秒,,GML Visual argument value
+GMStdVar_time_source_units_frames,Frames,フレーム,,GML Visual argument value
+GMStdVar_time_source_expire_nearest,Nearest,最も近い,,GML Visual argument value
+GMStdVar_time_source_expire_after,After,後,,GML Visual argument value
+GMStdVar_time_source_state_initial,Initial,最初,,GML Visual argument value
+GMStdVar_time_source_state_active,Active,未完了,,GML Visual argument value
+GMStdVar_time_source_state_paused,Paused,一時停止中,,GML Visual argument value
+GMStdVar_time_source_state_stopped,Stopped,停止,,GML Visual argument value
+GMStdTimeSourceCreate_Name,Create Time Source,タイムソースを作成,,GML Visual action name
+GMStdTimeSourceCreate_Desc,Create a time source.,タイムソースを作成します。,,GML Visual action description
+GMStdTimeSourceCreate_Story,Create a time source and assign it to ${idx},タイムソースを作成して ${idx} に割り当てます,,GML Visual story text
+GMStdTimeSourceDestroy_Name,Destroy Time Source,タイムソースを破棄,,GML Visual action name
+GMStdTimeSourceDestroy_Desc,Destroy a time source.,タイムソースを破棄します。,,GML Visual action description
+GMStdTimeSourceStart_Name,Start Time Source,タイムソースを開始,,GML Visual action name
+GMStdTimeSourceStart_Desc,Start a time source.,タイムソースを開始します。,,GML Visual action description
+GMStdTimeSourceStart_Story,Start time source ${idx},タイムソース ${idx} を開始します,,GML Visual story text
+GMStdTimeSourceStop_Name,Stop Time Source,タイムソースを停止,,GML Visual action name
+GMStdTimeSourceStop_Desc,Stop a time source.,タイムソースを停止します。,,GML Visual action description
+GMStdTimeSourceStop_Story,Stop time source ${idx},タイムソース ${idx} を停止します,,GML Visual story text
+GMStdTimeSourcePause_Name,Pause Time Source,タイムソースを一時停止,,GML Visual action name
+GMStdTimeSourcePause_Desc,Pause a time source.,タイムソースを一時停止します。,,GML Visual action description
+GMStdTimeSourcePause_Story,Pause time source ${idx},タイムソース ${idx} を一時停止します,,GML Visual story text
+GMStdTimeSourceReset_Name,Reset Time Source,タイムソースをリセット,,GML Visual action name
+GMStdTimeSourceReset_Desc,Reset a time source.,タイムソースをリセットします。,,GML Visual action description
+GMStdTimeSourceReset_Story,Reset time source ${idx},タイムソース ${idx} をリセットします,,GML Visual story text
+GMStdTimeSourceReconfigure_Name,Reconfigure Time Source,タイムソースを再設定,,GML Visual action name
+GMStdTimeSourceReconfigure_Desc,Reset and reconfigure a time source.,タイムソースをリセットして再設定します。,,GML Visual action description
+GMStdTimeSourceReconfigure_Story,Reset and reconfigure time source ${idx},タイムソース ${idx} をリセットして再設定します,,GML Visual story text
+GMStdTimeSourceGetPeriod_Name,Get Period,. を取得,,GML Visual action name
+GMStdTimeSourceGetPeriod_Desc,Get the period of a time source.,タイムソースの . を取得します。,,GML Visual action description
+GMStdTimeSourceGetPeriod_Story,Get the period of time source ${idx} and assign it to ${var},タイムソースの . ${idx} を取得して ${var} に割り当てます,,GML Visual story text
+GMStdTimeSourceGetRepsCompleted_Name,Get Reps Completed,完了した繰り返し数を取得,,GML Visual action name
+GMStdTimeSourceGetRepsCompleted_Desc,Get the number of repetitions a time source has completed.,タイムソースの完了した繰り返し数を取得します。,,GML Visual action description
+GMStdTimeSourceGetRepsCompleted_Story,Get the number of completed repetitions of time source ${idx} and assign it to ${var},タイムソース ${idx} の完了した繰り返し数を取得して ${var} に割り当てます,,GML Visual story text
+GMStdTimeSourceGetRepsRemaining_Name,Get Reps Remaining,残りの繰り返し数を取得,,GML Visual action name
+GMStdTimeSourceGetRepsRemaining_Desc,Get the number of repetitions a time source has remaining.,タイムソースの残りの.繰り返し数を取得します。,,GML Visual action description
+GMStdTimeSourceGetRepsRemaining_Story,Get the number of remaining repetitions of time source ${idx} and assign it to ${var},タイムソース ${idx} の残りの繰り返し数を取得して ${var} に割り当てます。,,GML Visual story text
+GMStdTimeSourceGetUnits_Name,Get Units,単位を取得,,GML Visual action name
+GMStdTimeSourceGetUnits_Desc,Get the units of a time source.,タイムソースの単位を取得します。,,GML Visual action description
+GMStdTimeSourceGetUnits_Story,Get the units of time source ${idx} and assign it to ${var},タイムソースの単位 ${idx} を取得して ${var} に割り当てます,,GML Visual story text
+GMStdTimeSourceGetTimeRemaining_Name,Get Time Remaining,残り時間を取得,,GML Visual action name
+GMStdTimeSourceGetTimeRemaining_Desc,Get the time remaining on a time source.,タイムソースの残り時間を取得します。,,GML Visual action description
+GMStdTimeSourceGetTimeRemaining_Story,Get the time remaining on time source ${idx} and assign it to ${var},タイムソースの残り時間 ${idx} を取得して ${var} に割り当てます,,GML Visual story text
+GMStdTimeSourceGetState_Name,Get State,状態を取得,,GML Visual action name
+GMStdTimeSourceGetState_Desc,Get the current state of a time source.,タイムソースの現在の状態を取得します。,,GML Visual action description
+GMStdTimeSourceGetState_Story,Get the current state of time source ${idx} and assign it to ${var},タイムソースの現在の状態 ${idx} を取得して ${var} に割り当てます,,GML Visual story text
+GMStdTimeSourceGetParent_Name,Get Parent,親を取得,,GML Visual action name
+GMStdTimeSourceGetParent_Desc,Get the parent of a time source.,タイムソースの親を取得します。,,GML Visual action description
+GMStdTimeSourceGetParent_Story,Get the parent of time source ${idx} and assign it to ${var},タイムソースの親 ${idx} を取得して ${var} に割り当てます,,GML Visual story text
+GMStdTimeSourceGetChildren_Name,Get Children,子を取得,,GML Visual action name
+GMStdTimeSourceGetChildren_Desc,Get the children of a time source.,タイムソースの子を取得します。,,GML Visual action description
+GMStdTimeSourceGetChildren_Story,Get the children of time source ${idx} and assign it to ${var},タイムソースの子 ${idx} を取得して ${var} に割り当てます,,GML Visual story text
+GMStdTimeSourceExists_Name,If Time Source Exists,タイムソース存在チェック,,GML Visual action name
+GMStdTimeSourceExists_Desc,Check if a time source exists.,タイムソースの存在をチェックします。,,GML Visual action description
+GMStdTimeSourceExists_Story_1,If time source ${idx} exists,タイムソース ${idx} が存在する場合,,GML Visual story text
+GMStdTimeSourceExists_Story_2,If time source ${idx} does not exist,タイムソース ${idx} が存在しない場合,,GML Visual story text
+GMStdIfTimeSourceState_Name,If State,状態チェック,,GML Visual action name
+GMStdIfTimeSourceState_Desc,Check if a time source's state satisfies a condition.,タイムソースの状態が条件を満たしているかどうかをチェックします。,,GML Visual action description
+GMStdIfTimeSourceState_Story_1,If the state of time source ${idx} is ${state},タイムソースの状態 ${idx} が ${state} である場合,,GML Visual story text
+GMStdIfTimeSourceState_Story_2,If the state of time source ${idx} is not ${state},タイムソースの状態 ${idx} が ${state} でない場合,,GML Visual story text
+GMStdIfTimeSourceUnits_Name,If Units,単位チェック,,GML Visual action name
+GMStdIfTimeSourceUnits_Desc,Check if a time source's units satisfies a condition.,タイムソースの単位が条件を満たしているかどうかをチェックします。,,GML Visual action description
+GMStdIfTimeSourceUnits_Story_1,If the units of time source ${idx} are ${units},タイムソースの単位 ${idx} が ${units} である場合,,GML Visual story text
+GMStdIfTimeSourceUnits_Story_2,If the units of time source ${idx} are not ${units},タイムソースの単位 ${idx} が ${units} でない場合,,GML Visual story text
+GMStdIfTimeSourceParent_Name,If Parent,親チェック,,GML Visual action name
+GMStdIfTimeSourceParent_Desc,Check if a time source's parent satisfies a condition.,タイムソースの親が条件を満たしているかどうかをチェックします。,,GML Visual action description
+GMStdIfTimeSourceParent_Story_1,If the parent of time source ${idx} is ${parent},タイムソースの親 ${idx} が ${parent} である場合,,GML Visual story text
+GMStdIfTimeSourceParent_Story_2,If the parent of time source ${idx} is not ${parent},タイムソースの親 ${idx} が ${state} でない場合,,GML Visual story text
 RedefineKeys_MoveFlowNext,Move Flow Next,Flow を次に移動,,Redefine keys MoveFlowNext string
 RedefineKeys_MoveFlowPrevious,Move Flow Previous,Flow を前に移動,,Redefine keys MoveFlowPrevious string
 RedefineKeys_FlowAccept,Flow Accept,Flow 承認,,Redefine keys FlowAccept string
@@ -7743,10 +7742,10 @@ RedefineKeys_Insert,Insert,挿入,,Redefine keys Insert string
 RedefineKeys_ImageEditor_AddFromFile,Image Editor Add From File,画像エディターでファイルから追加,,Redefine keys ImageEditor_AddFromFile string
 RedefineKeys_ImageEditor_CreateFromStrip,Image Editor Create From Strip,画像エディターでストリップから作成,,Redefine keys ImageEditor_CreateFromStrip string
 RedefineKeys_ImageEditor_ImportFromStrip,Image Editor Import From Strip,画像エディターでストリップからインポート,,Redefine keys ImageEditor_ImportFromStrip string
-RedefineKeys_ImageEditor_ExportToPNG,Image Editor Export To PNG,画像エディターで PNG にエクスポート,,Redefine keys ImageEditor_ExportToPNG string
+RedefineKeys_Export To PNG,Image Editor Export To PNG,画像エディターで PNG にエクスポート,,Redefine keys ImageEditor_ExportToPNG string
 RedefineKeys_ImageEditor_ResizeCanvas,Image Editor Resize Canvas,画像エディターでキャンバスのサイズ変更,,Redefine keys ImageEditor_ResizeCanvas string
 RedefineKeys_ImageEditor_CropToSelection,Image Editor Crop To Selection,画像エディターで選択範囲に切り取る,,Redefine keys ImageEditor_CropToSelection string
-RedefineKeys_ImageEditor_AutoTrim,Image Editor Auto Trim,画像エディターで自動トリム,,Redefine keys ImageEditor_AutoTrim string
+RedefineKeys_Auto Trim Frames,Image Editor Auto Trim,画像エディターで自動トリム,,Redefine keys ImageEditor_AutoTrim string
 RedefineKeys_ImageEditor_ReverseFrames,Image Editor Reverse Frames,画像エディターでフレームを反転,,Redefine keys ImageEditor_ReverseFrames string
 RedefineKeys_Transform Current Frame,Transform Current Frame,現在のフレームをトランスフォーム,,Redefine keys Transform Current Frame string
 RedefineKeys_Transform All Frames,Transform All Frames,すべてのフレームをトランスフォーム,,Redefine keys Transform All Frames string
@@ -7913,6 +7912,7 @@ RedefineKeys_Command,Command,コマンド,,Redefine keys Command label
 RedefineKeys_Keys,Keys,キー,,Redefine keys Keys label
 Event_Other_RollbackStart,Rollback Start,ロールバックスタート,,Other event subtype
 Event_Other_RollbackEvent,Rollback Event,ロールバックイベント,,Other event subtype
+Event_Other_WallpaperConfig,Wallpaper Config,Wallpaper Config,,Other event subtype
 Inspector_InstVarMixedObjects,Variables only shown when all selected Instances have the same Object,変数は選択したすべてのインスタンスに同じオブジェクトがある場合にのみ表示されます,,mixed instance object message
 Object_Managed,Managed,管理された,,The object is managed by the rollback system
 Object_Managed_Tooltip,Instances of this object will have its lifecycle managed during rollback multiplayer,このオブジェクトのインスタンスはロールバックのマルチプレイヤー中に管理されたライフサイクルを持つことになります,,The object is managed by rollback system (tooltip)
@@ -8033,7 +8033,7 @@ GMStdRollbackJoinGame_Name,Join Game,ゲームに参加,,Drag and Dropâ„¢ li
 GMStdRollbackJoinGame_Desc,This function checks if the game was started via an invite to a GXC game and if so joins it.,この関数でゲームが GXC ゲームへの招待状経由でスタートされたか、その場合そのゲームに参加しているかを確認します。,,Drag and Dropâ„¢ library action description
 GMStdRollbackLeaveGame_Name,Leave Game,ゲームをやめる,,Drag and Dropâ„¢ library action name
 GMStdRollbackLeaveGame_Desc,This function leaves the current game.,この関数で現在のゲームをやめます,,Drag and Dropâ„¢ library action description
-GMStdRollbackGetInput_Desc,"This function returns a struct containing fields w,a,s,d,z,x,c,space,up,left,down,right and the corresponding last_? fields for last frames input.","この関数で、w、a、s、d、z、x、c、スペース、上、左、下、右 のフィールドおよび最後のフレーム入力に付随する last_? フィールドを含む構造を返します。",,Drag and Dropâ„¢ library action description
+GMStdRollbackGetInput_Desc,"This function returns a struct containing fields w,a,s,d,z,x,c,space,up,left,down,right and the corresponding last_? fields for last frames input.",この関数で、w、a、s、d、z、x、c、スペース、上、左、下、右 のフィールドおよび最後のフレーム入力に付随する last_? フィールドを含む構造を返します。,,Drag and Dropâ„¢ library action description
 GMStdRollbackUseRandomInput_Name,Use Random Input,ランダム入力を使用,,Drag and Dropâ„¢ library action name
 GMStdRollbackUseRandomInput_Desc,This function switches random input for other players in sync test.,この関数で同期テストの他のプレイヤーのランダム入力を切り替えます。,,Drag and Dropâ„¢ library action descriptio
 GMStdRollbackDisplayEvents_Name,Display Events,イベントを表示,,Drag and Dropâ„¢ library action name
@@ -8048,7 +8048,7 @@ GMStdRollbackIfInput_Desc,Check if a key managed by the rollback is held down.,�
 GMStdRollbackIfEventFired_Name,If Rollback Event Fired,ロールバックイベント発生の場合,,Drag and Dropâ„¢ library action name
 GMStdRollbackIfEventFired_Desc,If a rollback event was fired,ロールバックイベントが発生した場合,,Drag and Dropâ„¢ library action description
 GMStdRollbackSyncOnFrame_Name,Sync on frame,フレームで同期,,Drag and Dropâ„¢ library action name
-GMStdRollbackSyncOnFrame_Desc,"Synchronize the rollback game on the current frame. This means that we will only proceed past the current frame if all inputs are confirmed. Returns true if successful, false if the current frame will be rerun.","現在のフレームでロールバックゲームを同期します。これは、すべての入力が確認されている場合にのみ現在のフレームを通過するということです。正常な場合は True を返し、現在のフレームが再度実行される場合は False を返します。",,Drag and Dropâ„¢ library action description
+GMStdRollbackSyncOnFrame_Desc,"Synchronize the rollback game on the current frame. This means that we will only proceed past the current frame if all inputs are confirmed. Returns true if successful, false if the current frame will be rerun.",現在のフレームでロールバックゲームを同期します。これは、すべての入力が確認されている場合にのみ現在のフレームを通過するということです。正常な場合は True を返し、現在のフレームが再度実行される場合は False を返します。,,Drag and Dropâ„¢ library action description
 GMStdRollbackGetInfo_Name,Get info,情報を取得,,Drag and Dropâ„¢ library action name
 GMStdRollbackGetInfo_Desc,This function returns a struct containing player_name and avatar_url for the player.,この関数でプレイヤーの player_name および avatar_url を含む構造を返します。,,Drag and Dropâ„¢ library action description
 ProgressBar_CopyFromCache,Copying from cache...,キャッシュからコピーしています...,,the progress bar caption while copying the imported project from cache into a destination folder

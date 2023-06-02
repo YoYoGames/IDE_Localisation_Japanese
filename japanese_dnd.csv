@@ -417,18 +417,18 @@ GMStdDrawValue_Story_1,Draw  at ${dnd_position},${dnd_position} で描画しま�
 GMStdDrawValue_Story_2,Draw  at ${dnd_position} on ${applyto},${applyto} で、${dnd_position} に描画します,,GML Visual story text
 GMStdDrawValue_Story_3,Draw  ${var} at ${dnd_position},${dnd_position} で ${var} を描画します,,GML Visual story text
 GMStdDrawValue_Story_4,Draw  ${var} at ${dnd_position} on ${applyto},${applyto} で、${dnd_position} に  ${var} を描画します,,GML Visual story text
-GMStdDrawValue_Story_5,"Draw ${caption}"" at ${dnd_position}""","${dnd_position}"" で ${caption}"" を描画します",,GML Visual story text
-GMStdDrawValue_Story_6,"Draw ${caption}"" at ${dnd_position} on ${applyto}""","${applyto}"" で、${dnd_position}"" に ${caption}"" を描画します",,GML Visual story text
-GMStdDrawValue_Story_7,"Draw ${caption}"" ${var} at ${dnd_position}""","${dnd_position}"" で ${caption}"" ${var} を描画します",,GML Visual story text
-GMStdDrawValue_Story_8,"Draw ${caption}"" ${var} at ${dnd_position} on ${applyto}""","${applyto}"" で、${dnd_position}"" に ${caption}"" ${var} を描画します",,GML Visual story text
+GMStdDrawValue_Story_5,"Draw ""${caption}"" at ${dnd_position}","${dnd_position} で ""${caption}"" を描画します",,GML Visual story text
+GMStdDrawValue_Story_6,"Draw ""${caption}"" at ${dnd_position} on ${applyto}","${applyto} で、${dnd_position} に ""${caption}"" を描画します",,GML Visual story text
+GMStdDrawValue_Story_7,"Draw ""${caption}"" ${var} at ${dnd_position}","${dnd_position} で ""${caption}"" ${var} を描画します",,GML Visual story text
+GMStdDrawValue_Story_8,"Draw ""${caption}"" ${var} at ${dnd_position} on ${applyto}","${applyto} で、${dnd_position} に ""${caption}"" ${var} を描画します",,GML Visual story text
 GMStdDrawValueTransformed_Story_1,Draw transformed  at ${dnd_position},${dnd_position} で変換して描画します,,GML Visual story text
 GMStdDrawValueTransformed_Story_2,Draw transformed  at ${dnd_position} on ${applyto},${applyto} で、${dnd_position} に変換して描画します,,GML Visual story text
 GMStdDrawValueTransformed_Story_3,Draw transformed  ${var} at ${dnd_position},${dnd_position} に変換された ${var} を描画します,,GML Visual story text
 GMStdDrawValueTransformed_Story_4,Draw transformed  ${var} at ${dnd_position} on ${applyto},${applyto} で、${dnd_position} に変換された ${var} を描画します,,GML Visual story text
-GMStdDrawValueTransformed_Story_5,"Draw transformed ${caption}"" at ${dnd_position}""","${dnd_position} に変換された ${caption}"" を描画します",,GML Visual story text
-GMStdDrawValueTransformed_Story_6,"Draw transformed ${caption}"" at ${dnd_position} on ${applyto}""","${applyto}"" で、${dnd_position} で変換された ${caption}"" を描画します",,GML Visual story text
-GMStdDrawValueTransformed_Story_7,"Draw transformed ${caption}"" ${var} at ${dnd_position}""","${dnd_position} に変換された ${caption}"" ${var} を描画します",,GML Visual story text
-GMStdDrawValueTransformed_Story_8,"Draw transformed ${caption}"" ${var} at ${dnd_position} on ${applyto}""","${applyto}"" で、${dnd_position} に変換された ${caption}"" ${var} を描画します",,GML Visual story text
+GMStdDrawValueTransformed_Story_5,"Draw transformed ""${caption}"" at ${dnd_position}","${dnd_position} に変換された ""${caption}"" を描画します",,GML Visual story text
+GMStdDrawValueTransformed_Story_6,"Draw transformed ""${caption}"" at ${dnd_position} on ${applyto}","${applyto} で、${dnd_position} で変換された ""${caption}"" を描画します",,GML Visual story text
+GMStdDrawValueTransformed_Story_7,"Draw transformed ""${caption}"" ${var} at ${dnd_position}","${dnd_position} に変換された ""${caption}"" ${var} を描画します",,GML Visual story text
+GMStdDrawValueTransformed_Story_8,"Draw transformed ""${caption}"" ${var} at ${dnd_position} on ${applyto}","${applyto} で、${dnd_position} に変換された ""${caption}"" ${var} を描画します",,GML Visual story text
 GMStdDrawSprite_Story_1,Draw sprite ${sprite} frame ${image} at ${dnd_position},${dnd_position} でスプライト ${sprite} のフレーム ${image} を描画します,,GML Visual story text
 GMStdDrawSprite_Story_2,Draw sprite ${sprite} frame ${image} at ${dnd_position} on ${applyto},${applyto} で、${dnd_position} にスプライト ${sprite} のフレーム ${image} を描画します,,GML Visual story text
 GMStdDrawSpriteExt_Story_1,"Draw transformed sprite ${sprite} frame ${frame} with scale ${xscale},${yscale} and rotation ${rot}","倍率 ${xscale},${yscale} と回転 ${rot} で変換されたスプライト ${sprite} のフレーム ${frame} を描画します",,GML Visual story text
@@ -454,9 +454,9 @@ GMStdDrawLine_Story_2,Draw line from ${dnd_position1} to ${dnd_position2} on ${a
 GMStdDrawHealthbar_Story_1,Draw healthbar from ${dnd_position1} to ${dnd_position2} with value ${value},${dnd_position1} から ${dnd_position2} に値 ${value} でヘルスバーを描画します,,GML Visual story text
 GMStdDrawHealthbar_Story_2,Draw healthbar from ${dnd_position1} to ${dnd_position2} with value ${value} on ${applyto},${applyto} で、${dnd_position1} から ${dnd_position2} に値 ${value} でヘルスバーを描画します,,GML Visual story text
 GMStdDrawInstanceScore_Story_1,Draw score at ${dnd_position},${dnd_position} にスコアを描画します,,GML Visual story text
-GMStdDrawInstanceScore_Story_2,"Draw score at ${dnd_position} with caption ${caption}""""","${dnd_position} にキャプション ${caption}"""" を付けたスコアを描画します",,GML Visual story text
+GMStdDrawInstanceScore_Story_2,"Draw score at ${dnd_position} with caption ""${caption}""","${dnd_position} にキャプション ""${caption}"" を付けたスコアを描画します",,GML Visual story text
 GMStdDrawInstanceScore_Story_3,Draw ${applyto}'s score at ${dnd_position} on ${applyto},${applyto} で、${dnd_position} に ${applyto} のスコアを描画します,,GML Visual story text
-GMStdDrawInstanceScore_Story_4,"Draw ${applyto}'s score at ${dnd_position} with caption ${caption}"" on ${applyto}""","${applyto} で、${dnd_position} にキャプション ${caption}""を付けた ${applyto} のスコアを描画します",,GML Visual story text
+GMStdDrawInstanceScore_Story_4,"Draw ${applyto}'s score at ${dnd_position} with caption ""${caption}"" on ${applyto}","${applyto} で、${dnd_position} にキャプション ""${caption}""を付けた ${applyto} のスコアを描画します",,GML Visual story text
 GMStdDrawInstanceHealth_Story_1,Draw healthbar from ${dnd_position1} to ${dnd_position2},${dnd_position1} から ${dnd_position2} にヘルスバーを描画します,,GML Visual story text
 GMStdDrawInstanceHealth_Story_2,Draw ${applyto}'s healthbar from ${dnd_position1} to ${dnd_position2} on ${applyto},${applyto} で、${dnd_position1} から ${dnd_position2} に ${applyto のヘルスバーを描画します,,GML Visual story text
 GMStdDrawInstanceLives_Story_1,Draw lives in a row at ${dnd_position},${dnd_position} の行にライフを描画します,,GML Visual story text
