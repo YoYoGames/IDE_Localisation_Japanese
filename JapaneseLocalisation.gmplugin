@@ -3,12 +3,7 @@
   "bundle_version": "1.0.0",
   "bundle_description": "Japanese IDE localisations",
   "required": false,
-  "endpoints": [
-    {
-      "endpoint_name": "github",
-      "github_url": "https://api.github.com/repos/YoYoGames/IDE_Localisation_Japanese"
-    }
-  ],
+  "feature_flag": "",
   "plugins": [
     {
       "plugin_name": "JapaneseLocalisation",
@@ -17,13 +12,21 @@
       "type": "Language",
       "plugin_data": {
         "languages": [
-            { "Japanese": "japanese.csv" },
-            {"Japanese": "japanese_dnd.csv" }
+          {
+            "Japanese": "japanese.csv"
+          },
+          {
+            "Japanese": "japanese_dnd.csv"
+          }
         ]
       },
       "description": "Japanese IDE localisations",
       "required_assemblies": [],
       "dependencies": []
     }
-  ]
+  ],
+  "endpoints": [],
+  "author": "GameMaker",
+  "signature": "gbK\u002B0mdaL2HEoD5BGdeQP3c\u002BHggaxb7PIkhzo5wtYYnpOYjKtExp6Cj\u002Bv4JMmzwogx3YANXsicfj4Lt1RtRLBVBlJ8qzCAXYqJ3/DuWGGmtaTPxfuIn6NaD3wlGgKievkc69i8lbXKXzCjxIi4SPUjw9JzOEqtsypC/CrhrNf10=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCfaWA3d2WPN5cJCqTJJj72v6p0a4toQY7MzAPpkXkDxdPpeWMbrV4AQs9V\u002BbGVZ4PaGA3Gl0DWzfSmb\u002Btd/oDtzZZ2XehhxyFg\u002BanTPo6MdTasMkXEDBU50f6e7m3ruelF1QIER0\u002BulTNMI8\u002B\u002BURtTcPu/\u002BalhiA5z7BJP/u2MWwIDAQAB"
 }
