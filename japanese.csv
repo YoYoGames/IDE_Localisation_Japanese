@@ -7813,7 +7813,6 @@ RedefineKeys_tile_line,Tile Line,タイルのライン,,Redefine keys tile_line 
 RedefineKeys_tile_rect,Tile Rect,タイルの四角形,,Redefine keys tile_rect string
 RedefineKeys_tile_select,Tile Select,タイルの選択,,Redefine keys tile_select string
 RedefineKeys_tile_autotile,Tile Autotile,タイルのオートタイル,,Redefine keys tile_autotile string
-RedefineKeys_Rotate,Rotate,回転,,Redefine keys Rotate string
 RedefineKeys_autotile_add_full_set,Autotile Add Full Set,オートタイルでフルセットを追加,,Redefine keys autotile_add_full_set string
 RedefineKeys_autotile_add_transition_set,Autotile Add Transition Set,オートタイルで遷移セットを追加,,Redefine keys autotile_add_transition_set string
 RedefineKeys_autotile_delete_set,Autotile Delete Set,オートタイルでセットを削除,,Redefine keys autotile_delete_set string
@@ -7902,8 +7901,8 @@ RedefineKeys_SoundMixer,Sound Mixer,サウンドミキサー,,Redefine keys loca
 RedefineKeys_Debugger,Debugger,デバッガ,,Redefine keys location entry
 RedefineKeys_GMLVisual,GML Visual,GML Visual,,Redefine keys location entry
 RedefineKeys_Workspace,Workspace,ワークスペース,,Redefine keys location entry
-RedefineKeys_Command,Command,コマンド,,Redefine keys Command label
-RedefineKeys_Keys,Keys,キー,,Redefine keys Keys label
+RedefineKeys_Command,Command{0},コマンド{0},,Redefine keys Command label
+RedefineKeys_Keys,Keys{0},キー{0},,Redefine keys Keys label
 Event_Other_RollbackStart,Rollback Start,ロールバックスタート,,Other event subtype
 Event_Other_RollbackEvent,Rollback Event,ロールバックイベント,,Other event subtype
 Event_Other_WallpaperConfig,Wallpaper Config,Wallpaper Config,,Other event subtype
