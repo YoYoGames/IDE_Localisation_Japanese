@@ -1,6 +1,6 @@
 {
   "name": "@localisation_plugins/japanese",
-  "version": "1.0.0",
+  "version": "{$MAJOR}.{$MINOR}.{$BUILD}",
   "description": "Japanese IDE localisations",
   "main": "index.js",
   "scripts": {

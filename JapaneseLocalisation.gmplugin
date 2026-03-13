@@ -1,6 +1,6 @@
 {
   "name": "JapaneseLocalisation",
-  "bundle_version": "1.0.0",
+  "bundle_version": "9999.0.0",
   "bundle_description": "Japanese IDE localisations",
   "required": false,
   "feature_flag": "",
@@ -8,7 +8,7 @@
     {
       "plugin_name": "JapaneseLocalisation",
       "localised_name": "japanese_localisation",
-      "plugin_version": "1.0.0",
+      "plugin_version": "9999.0.0",
       "type": "Language",
       "plugin_data": {
         "languages": [
