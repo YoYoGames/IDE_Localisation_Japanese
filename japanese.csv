@@ -8054,3 +8054,5 @@ Feather_GM2017Help,GM2017 Message Severity must not be set to Ignore for these t
 DeviceManager_Name_Already_Taken,A device with this name has already been created.,この名前のデバイスはすでに作成されています。,,Device manager name already taken error message
 GMStdTime,Time,時,,DnD library argument label
 RedefineKeys_Delete,Delete,削除,,Redefine keys Delete string
+lts_upgrade_title,LTS Upgrade Available,LTSアップグレードが利用可能です,,LTS Upgrade Available title
+lts_upgrade_text,This release is no longer supported but a new LTS upgrade is available from <a href=""https://releases.gamemaker.io"">https://releases.gamemaker.io</a>\n\nPlease upgrade at your earliest opportunity.,このリリースはサポート対象外となりましたが、新しい LTS アップグレードが <a href=""https://releases.gamemaker.io"">https://releases.gamemaker.io</a> から入手可能です。\n\nできるだけ早くアップグレードしてください。,,LTS Upgrade text
